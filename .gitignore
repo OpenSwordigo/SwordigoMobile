@@ -9,3 +9,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Copyrighted game assets (PVR, POD, Scene data, Audio)
+*.pvr
+*.PVR
+*.pvr.png
+*.pod
+*.POD
+*.scene
+*.scl
+*.wav
+*.ogg
