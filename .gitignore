@@ -10,6 +10,9 @@
 .cxx
 local.properties
 
+# Shared Libraries & Native Binaries
+*.so
+
 # Copyrighted game assets (PVR, POD, Scene data, Audio)
 *.pvr
 *.PVR
