@@ -1,0 +1,245 @@
+brasssword
+Brass Sword"	+0 damage*
+Good for killing insects.0
+	ironsword
+Iron Sword"	+1 damage*
+Basic iron sword.0
+needle
+The Needle"	+1 damage*
+Basic iron sword.0
+broadsword
+Broad Sword"	+2 damage*
+High quality broad sword.0
+thorn
+	The Thorn"	+2 damage*
+High quality broad sword.0
+magicsword
+Magic Sword"	+3 damage*
+Magic enchanted sword.0
+legendsword
+The Mageblade"	+4 damage*
+The legendary Mageblade.0
+platearmor
+Plate Armor"
+50% damage reduction*
+50% damage reduction.0
+magicarmor
+Magic Armor"
+75% damage reduction*
+75% damage reduction.0
+firetrinket
+Trinket of Fire"
+-*8Adds a fire enchantment to your weapon, armor or spells.0
+icetrinket
+Trinket of Ice"
+-*8Adds a cold enchantment to your weapon, armor or spells.0
+shadowtrinket
+Trinket of Shadow"
+-*:Adds a shadow enchantment to your weapon, armor or spells.0
+healingpotion
+Healing Potion*MRestores 5 hearts when used. You can only carry one healing potion at a time.0
+experiencesack
+Sack of Experience*
+Gives a lot of experience.
+ankh
+Ankh of Resurrection*
+key_yellow
+A Key
+iselon_shard_1
+First shard of the Mageblade0
+iselon_shard_2
+Second shard of the Mageblade0
+iselon_shard_3
+Third shard of the Mageblade0
+iselon_shard_4
+Fourth shard of the Mageblade0
+bolt
+Magic Bolt
+--- 
+bomb
+Magic Bomb
+--- 
+hookshot
+Dragon's Grasp
+--- 
+	dimension
+Dimension Rift
+??? ((
+	vaseQuest
+Recover the Vase"
+plains_part2
+snowyboulder
+Get the Golden Boulder"
+snowy_part1
+quest01_find_master
+Find Master in the Woods"
+town_woods_end
+quest02_village_elder"
+town_part1
+quest03_woodkeep
+Find the Legendary Weapon"
+plains_woodkeep3
+quest04_village_elder2"
+town_part1
+quest05_florennum
+Speak to the King for Help"
+florennum_jail_part1
+quest06_florennum_shard
+Recover the Second Shard"
+florennum_jail_boss
+quest07_go_to_king"
+florennum_jail_part1
+quest071_fire
+The Fiery Depths"
+fire_partBoss
+quest072_ice
+The Snowy Peaks"
+icecastle_partBoss
+quest09_assemble
+The Chambers of Power"
+thecave_part15
+quest10_death
+ Destroy the Source of Corruption"
+worldsend_part9"
+monster
+Monster"
+boss
+Boss
+boss_corruptor
+	Corruptor
+	boss_fire
+Boss
+lesser_corruptor
+Lesser Corruptor 
+	corruptor
+	Corruptor 
+bolt 
+skeleton_lord
+Skeleton Lord
+	Chaos Orb
+	Chaos Orb
+Master of Chaos
+Master of Chaos
+Burning Charger
+Burning Charger 
+quest01_find_master
+town_woods_end"
+questTrigger1*@
+quest02_village_elder
+town_healerhouse"
+resurrectionTrigger*!
+	vaseQuest
+plains_house1"
+key*2
+	vaseQuest
+plains_tower1"	questvase*	questvase*1
+specialkey
+plains_woodkeep"
+item_key_yellow1*#
+d1_key2
+plains_woodkeep"
+obj13*%
+d1_key3
+plains_woodkeep"
+obj13#2*)
+bomb
+plains_woodkeep_cellar"
+trigger*$
+d1_key4
+plains_woodkeep3"
+obj16*0
+quest03_woodkeep
+plains_woodkeep3"
+bossdoor*6
+quest04_village_elder2
+town_elderhouse"
+trigger0
+d2_key0
+florennum_wall1"
+obj9*'
+	flor_key1
+florennum_towertop"
+obj3*3
+tower2_key1
+florennum_tower2"
+item_key_yellow1*4
+quest05_florennum
+florennum_jail_part1"
+knight1*.
+f_jail_p2_key
+florennum_jail_part2"
+obj19*;
+quest06_florennum_shard
+florennum_jail_boss"	focusArea*>
+quest07_go_to_king
+florennum_jail_part1"
+quest07_script0
+key1
+fire_part1"
+key1*+
+hookshot
+fire_part31"
+spellget_script1*&
+firep5_key
+fire_part5"
+firep5_key*-
+quest071_fire
+fire_partBoss"
+fakeground1*&
+snowyboulder
+snowy_part1"
+quest0
+snowyboulder
+snowy_cave2"
+boss*
+bouldergold*)
+snowy1_key1
+snowy_part1"
+snowy1_key1**
+icecastle_key1
+icecastle_part11"
+obj1*"
+icekey2
+icecastle_part2"
+obj7*(
+	dimension
+icecastle_part5"
+trigger1**
+	dimension
+icecastle_part5"
+sign*
+sign*1
+icecastle_bosskey
+icecastle_part4"	dragonkin**
+quest072_ice
+icecastle_partBoss"
+door*.
+quest09_assemble
+thecave_part15"
+obj7#30
+key11
+worldsend_part1"
+item_key_yellow1*!
+key12
+worldsend_part1"
+guard*g
+p3_key1
+worldsend_part3"
+worldsend_p3_key1:
+worldsend_part1
+obj14#6:
+worldsend_part2
+obj14#8*q
+worldsendkey_part5
+worldsend_part5"
+item_key_yellow1:
+worldsend_part1
+obj14#5:
+worldsend_part2
+obj14#7*0
+	we_p8_key
+worldsend_part8"
+item_key_yellow1*,
+quest10_death
+worldsend_part9"
+dimArea1

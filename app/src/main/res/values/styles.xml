@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SwordigoDesktopMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/swordigo_accent</item>
+        <item name="android:windowBackground">@color/swordigo_bg</item>
+    </style>
+
+    <style name="Theme.SwordigoDesktopMobile.Fullscreen" parent="Theme.SwordigoDesktopMobile">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

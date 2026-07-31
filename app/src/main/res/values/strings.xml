@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Swordfare</string>
+    <string name="launch_game">Launch Game</string>
+    <string name="launcher_settings">Launcher Settings</string>
+    <string name="select_mod">Select Mod / Instance</string>
+    <string name="fps_limit">FPS Cap: 60 FPS</string>
+    <string name="unlocked_fps">FPS Cap: Unlocked (120+ FPS)</string>
+    <string name="status_ready">Ready to launch libswd.so + libswordigo.so</string>
+</resources>
