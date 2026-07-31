@@ -5,6 +5,10 @@
 
 ---
 
+> [!CAUTION]  
+> **CURRENT STATUS: DOES NOT WORK / WORK IN PROGRESS**  
+> **SwordigoMobile** currently launches and executes `CaverShell::Update` and `CaverShell::Render` loops natively at 120 FPS, but rendering currently produces a **black screen** due to unresolved GLES surface buffer / texture atlas binding issues.
+
 > [!WARNING]  
 > **EXPERIMENTAL PROJECT NOTICE**  
 > **SwordigoMobile (Swordfare)** is an experimental, independent mobile launcher research project.  
@@ -39,7 +43,7 @@ SwordigoMobile (Swordfare)
  │         ├── MainActivity.java  # Android Activity & GLSurfaceView harness
  │         ├── NativeBridge.java  # JNI bindings
  │         └── Native.java        # TouchFoo callbacks
- └── app/src/main/assets/         # Vanilla game assets & scene data
+ └── app/src/main/res/            # Application Android layout resources
 ```
 
 ---
