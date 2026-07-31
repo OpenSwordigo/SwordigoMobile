@@ -1,31 +1,31 @@
-# SwordigoMobile (Swordfare) 🗡️📱
+# SwordigoMobile (Swordfare)
 
-> **Created by MrSinup**  
-> *Experimental Mobile Port & Custom Engine Host for Swordigo*
+> **Maintained by MrSinup**  
+> **Experimental Mobile Port & Custom Engine Host for Swordigo**
 
 ---
 
 > [!WARNING]  
 > **EXPERIMENTAL PROJECT NOTICE**  
-> **SwordigoMobile (Swordfare)** is a highly experimental, independent mobile launcher research project.  
-> **Note:** This project may be dropped or paused at any time as most of the OpenSwordigo team is actively engaged on **[SwordigoDesktop](file:///run/media/quantumcreeper/TVPG/Prenxy%20Packages/SwordigoDesktop)**.
+> **SwordigoMobile (Swordfare)** is an experimental, independent mobile launcher research project.  
+> **Note:** This project may be dropped or paused at any time as most of the OpenSwordigo team is actively engaged on **SwordigoDesktop**.
 
 ---
 
-## 🌟 Overview
+## Overview
 
-**SwordigoMobile** (App Name: **Swordfare**) is a lightweight native Android host layer and custom JNI engine harness for running `libswordigo.so` directly on ARM64 Android devices without emulators or heavy translation layers.
+**SwordigoMobile** (App Name: **Swordfare**) is a lightweight native Android host layer and custom JNI engine harness designed to execute `libswordigo.so` directly on ARM64 Android devices without emulators or heavy translation layers.
 
-### Key Features
-- 🚀 **Direct ARM64 Native Execution**: Runs `libswordigo.so` natively on AArch64 hardware.
-- ⚡ **`libGlossHook` Inline Hooking**: Integrates `libGlossHook.so` for deep C++ engine instrumentation, function interception, and diagnostics.
-- 🎨 **FBO & Pipeline Enhancements**: Built-in OpenGL ES framebuffer redirection (`glBindFramebuffer`), color/depth clearing, and custom render context hooks.
-- 🛠️ **Memory Patches**: Real-time memory patches for Store controllers, ad-bypass routines, and `bad_weak_ptr` exception suppression.
-- 📱 **Mobile UI Harness**: Custom Java/JNI interface (`Native.java`, `NativeBridge.java`, `MainActivity.java`) exposing TouchFoo callbacks.
+### Key Technical Capabilities
+- **Direct ARM64 Native Execution**: Executes `libswordigo.so` natively on AArch64 hardware.
+- **`libGlossHook` Inline Hooking**: Integrates `libGlossHook.so` for deep C++ engine instrumentation, function interception, and diagnostics.
+- **FBO & Pipeline Enhancements**: Built-in OpenGL ES framebuffer redirection (`glBindFramebuffer`), color/depth clearing, and custom render context hooks.
+- **Memory Patches**: Real-time memory patches for Store controllers, ad-bypass routines, and `bad_weak_ptr` exception suppression.
+- **Mobile UI Harness**: Custom Java/JNI interface (`Native.java`, `NativeBridge.java`, `MainActivity.java`) exposing TouchFoo callbacks.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 SwordigoMobile (Swordfare)
@@ -44,14 +44,14 @@ SwordigoMobile (Swordfare)
 
 ---
 
-## 🛠️ Building & Installation
+## Building & Installation
 
-### Requirements
+### Environment Requirements
 - Android NDK `29.0.14206865`
 - Gradle `9.3.0`
 - Android SDK (`compileSdk 36`, `minSdk 24`)
 
-### Build & Deploy Command
+### Build & Deploy Commands
 ```bash
 export ANDROID_HOME="/path/to/android-sdk"
 export ANDROID_NDK_HOME="/path/to/android-ndk"
@@ -63,7 +63,7 @@ adb shell am start -n com.swordigo.desktop/.MainActivity
 
 ---
 
-## 📜 Credits & License
+## Credits & License
 
 - **Author / Lead**: MrSinup
 - **Engine Baseline**: OpenSwordigo & SwordigoDesktop
